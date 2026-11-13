@@ -1,4 +1,5 @@
-import json, math, sys
+import json, math, sys, os
+BASE = os.path.dirname(os.path.abspath(__file__))
 from PIL import Image, ImageDraw, ImageFont
 
 S = 3  # supersampling
@@ -7,7 +8,7 @@ BG = (16, 16, 16)
 FG = (243, 245, 247)
 GRAY = (119, 119, 119)
 ICON = (220, 222, 224)
-F = '/home/claude/fonts/Roboto-%s.ttf'
+F = os.path.join(BASE, 'fonts', 'Roboto-%s.ttf')
 
 def font(w, size): return ImageFont.truetype(F % w, size * S)
 
@@ -69,7 +70,7 @@ def render(quote, out):
     total = av + gap1 + lh*len(lines) + gap2 + icon
     top = (H*S - total)//2
     # avatar
-    a = Image.open('/home/claude/avatar.png').resize((av, av), Image.LANCZOS)
+    a = Image.open(os.path.join(BASE, 'avatar.png')).resize((av, av), Image.LANCZOS)
     m = Image.new('L', (av, av), 0); ImageDraw.Draw(m).ellipse((0, 0, av-1, av-1), fill=255)
     ax = 52*S; img.paste(a, (ax, top), m)
     d.ellipse((ax, top, ax+av, top+av), outline=(51, 51, 51), width=2*S)
@@ -90,8 +91,9 @@ def render(quote, out):
     img.resize((W, H), Image.LANCZOS).convert('RGB').save(out, quality=95)
 
 if __name__ == '__main__':
-    posts = json.load(open('/home/claude/posts.json'))
-    import os; os.makedirs('/home/claude/out', exist_ok=True)
+    # uso: python3 render.py lotes/AAAA-MM-DD   (pasta com posts.json)
+    d = sys.argv[1]
+    posts = json.load(open(os.path.join(d, 'posts.json')))
     for i, p in enumerate(posts, 1):
-        render(p['quote'], f'/home/claude/out/post_{i:02d}.jpg')
+        render(p['quote'], os.path.join(d, f'post_{i:02d}.jpg'))
     print(len(posts))
