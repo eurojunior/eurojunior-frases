@@ -27,3 +27,4 @@ Lista na ordem dos dias, começando na data do nome da pasta:
 
 ## Histórico
 - 2026-11-13: projeto criado; lote 2026-11-14 (14 posts, 14/11 a 27/11).
+- 2026-11-18: lote 2026-11-28 (5 posts, 28/11 a 02/12), agendados sem aprovação (scheduled_id 19345–19349).
