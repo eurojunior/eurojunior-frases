@@ -7,24 +7,28 @@ Post estático diário no Instagram do @dr.eurojunior, às **08:00 (America/Sao_
 - Avatar (`avatar.png`), "dr.eurojunior", selo azul de verificado, "now" em cinza, frase, ícones (curtir, comentar, repost, enviar).
 - Gerado por `python3 render.py lotes/<AAAA-MM-DD>` a partir de `lotes/<data>/posts.json`.
 
-## Conteúdo
-- Público: donos de escritório de advocacia. Voz: direta, provocativa, inspiradora — gestão, precificação, cliente ideal, time, processos, vendas, disciplina, crescimento (Método EURO / Manual do Advogado Empreendedor).
-- Frase da arte: 1 a 2 frases, até ~110 caracteres, em português do Brasil, sem hashtags.
-- Legenda: 2 parágrafos curtos desenvolvendo a ideia + linha final fixa:
-  `É advogado e fatura mais de 30 mil por mês? Minha dica: clica no link da bio!👀`
-- Nunca repetir frase já usada: ler todos os `lotes/*/posts.json` antes de escrever.
+## Conteúdo (regras da rotina diária, atualizadas em 2026-11-22)
+- Público: donos de escritório de advocacia. **A ARTE EMOCIONA, A LEGENDA ENSINA.**
+- Arte: fé, prosperidade, humildade, gratidão, superação ou parceria — NUNCA gestão, processos, CNPJ, delegação, marketing, escala, funil, margem. Nunca acusa nem corrige o leitor. 8 a 25 palavras + CTA de envio opcional, com imagem concreta ou contraste. Sem hashtags.
+- `render.py` não trata `\n` dentro da frase: manter a quote em um parágrafo só.
+- Padrões (alternar, respeitando a proporção): 1 BOTAFÉ ACREDITA 35% ("Envie pra si mesmo se acredita."), 2 BOTAFÉ HUMILDE 30%, 3 PRECIFICAÇÃO VALORIZADORA 20%, 4 JUNTOS 15% ("Manda pra quem está/esteve com você…").
+- Legenda 5 a 10 linhas: eco emocional → ponte para a dor do escritório (a lição de gestão entra aqui) → repete o CTA de envio se houver → linha final fixa:
+  `Se você é advogado, fatura mais de 30 mil por mês e quer traçar um plano de escala com meu time, comenta DIAGNÓSTICO aqui embaixo 👇`
+- O CTA antigo "clica no link da bio" está PROIBIDO. Os lotes 2026-11-14 e 2026-11-28 são contraexemplos (tom de bronca/aula de gestão na arte); seus agendamentos de 23/11 em diante foram cancelados em 2026-11-22.
+- Nunca repetir ideia nem estrutura: ler todos os `lotes/*/posts.json` antes de escrever. Banco de ganchos: ainda não existe.
 - Sem números de faturamento inventados, sem promessas de resultado, sem citar clientes, pessoas reais ou concorrentes.
 
 ## `posts.json`
 Lista na ordem dos dias, começando na data do nome da pasta:
-`[{"quote": "...", "caption": "<2 parágrafos, sem a linha de CTA>"}]`
+`[{"padrao": 1-4, "origem": "original"|"<gancho>", "quote": "...", "caption": "<legenda, sem a linha final fixa>"}]`
 
 ## Publicação (Supermetrics `manage_social_media`)
 - ds_id `IGI`, account_id `17841404174004174`, content_type `IMAGE`.
 - media_url fixado no commit: `https://raw.githubusercontent.com/eurojunior/eurojunior-frases/<sha>/lotes/<data>/post_NN.jpg`.
-- caption = legenda + `\n\n` + CTA; alt_text = frase; publish_at `AAAA-MM-DDT08:00`, timezone `America/Sao_Paulo`.
+- caption = legenda + `\n\n` + linha final fixa; alt_text = frase; publish_at `AAAA-MM-DDT08:00`, timezone `America/Sao_Paulo`.
 - Antes de agendar, listar os já agendados (`status`, sem alvo) e só preencher os dias vazios.
 
 ## Histórico
 - 2026-11-13: projeto criado; lote 2026-11-14 (14 posts, 14/11 a 27/11).
 - 2026-11-18: lote 2026-11-28 (5 posts, 28/11 a 02/12), agendados sem aprovação (scheduled_id 19345–19349).
+- 2026-11-22: lote 2026-11-23 (14 posts, 23/11 a 06/12) no novo tom (arte emociona, legenda ensina), CTA DIAGNÓSTICO, agendados sem aprovação (scheduled_id 26956, 26958–26970).
