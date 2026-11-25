@@ -64,8 +64,14 @@ Lista na ordem dos dias, começando na data do nome da pasta:
 - caption = legenda + `\n\n` + linha final fixa; alt_text = frase; publish_at `AAAA-MM-DDT08:00`, timezone `America/Sao_Paulo`.
 - Antes de agendar, listar os já agendados (`status`, sem alvo) e só preencher os dias vazios.
 
+## Compartilhamento com a equipe (`projeto/`)
+- `projeto/SKILL.md`: a rotina completa como skill, para colaboradores rodarem no Cowork/Claude Code. Ao mudar regras aqui, atualize também o SKILL.md.
+- `projeto/INSTRUCOES-DO-PROJETO.md` + `projeto/conhecimento/`: kit para um Projeto do claude.ai. Depois de cada lote, rode `python3 projeto/gerar_conhecimento.py`.
+- Colaboradores precisam de push no repositório e do conector Supermetrics com acesso à conta do Instagram.
+
 ## Histórico
 - 2026-11-13: projeto criado; lote 2026-11-14 (14 posts, 14/11 a 27/11).
 - 2026-11-18: lote 2026-11-28 (5 posts, 28/11 a 02/12), agendados sem aprovação (scheduled_id 19345–19349).
 - 2026-11-22: feedback do Euro (queda de views). Regras, CTA DIAGNÓSTICO e layout reescritos. Agendamentos antigos de 23/11 a 02/12 cancelados. Lote 2026-11-23 (14 posts, 23/11 a 06/12, aprovado pelo Euro) no layout novo.
 - 2026-11-25: rotina diária: lote 2026-12-07 (3 posts, 07/12 a 09/12; padrões 1, 2, 4; criadas do zero), agendados sem aprovação (scheduled_id 32677–32679). Seções "Por que estas regras existem", "Campeãs" e "Ruins" copiadas para este arquivo.
+- 2026-11-25: pasta `projeto/` criada (skill + kit de Projeto) para compartilhar a rotina com a equipe do Grupo Euro.
