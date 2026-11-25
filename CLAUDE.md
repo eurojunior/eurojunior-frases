@@ -68,3 +68,4 @@ Lista na ordem dos dias, começando na data do nome da pasta:
 - 2026-11-13: projeto criado; lote 2026-11-14 (14 posts, 14/11 a 27/11).
 - 2026-11-18: lote 2026-11-28 (5 posts, 28/11 a 02/12), agendados sem aprovação (scheduled_id 19345–19349).
 - 2026-11-22: feedback do Euro (queda de views). Regras, CTA DIAGNÓSTICO e layout reescritos. Agendamentos antigos de 23/11 a 02/12 cancelados. Lote 2026-11-23 (14 posts, 23/11 a 06/12, aprovado pelo Euro) no layout novo.
+- 2026-11-25: rotina diária: lote 2026-12-07 (3 posts, 07/12 a 09/12; padrões 1, 2, 4; criadas do zero), agendados sem aprovação (scheduled_id 32677–32679). Seções "Por que estas regras existem", "Campeãs" e "Ruins" copiadas para este arquivo.
