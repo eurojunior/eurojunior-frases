@@ -28,6 +28,32 @@ Post estático diário no Instagram do @dr.eurojunior, às **08:00 (America/Sao_
 - Nunca repetir ideia nem estrutura: ler todos os `lotes/*/posts.json` antes de escrever. Banco de ganchos: ainda não existe.
 - Sem números de faturamento inventados, sem promessas de resultado, sem citar clientes, pessoas reais ou concorrentes.
 
+## Por que estas regras existem (análise do Euro, 22/11/2026)
+16 frases que deram certo (1,2 mil a 38,8 mil curtidas) contra 5 frases feitas só pela IA (77 a 289 curtidas), com visual idêntico — a diferença era 100% o texto. As campeãs não falam de advocacia na arte: são fé, prosperidade e superação, e fazem o leitor se sentir bem. As da IA davam aula de gestão e acusavam o leitor ("não é empresa, é emprego com CNPJ"); ninguém reposta frase que o chama de amador, e o repost é o que explode o alcance (campeãs: 400 a 1,9 mil reposts; IA: 1 a 13). O público comenta para declarar fé ("Amém, eu recebo", "Eu creio"): frases com "envie pra si mesmo se acredita" tiveram 87 e 96 comentários (média < 10). O CTA "link na bio" deu zero comentários; o CTA de comentário alimenta o ManyChat e gera MQL.
+Sem clichê de coach (zona de conforto, universo conspira). Nunca invente fatos da vida do Euro ("Euro vulnerável" só como sentimento: "eu sonhava…", "eu pedi a Deus…"). Leitor como herói ou Euro vulnerável.
+
+## Campeãs (imite o nível, não copie e não repita ideia nem estrutura)
+- "Você está entrando no período mais próspero da sua história. Se acredita nisso, envie pra si mesmo." (38,8 mil)
+- "A porta do sucesso é larga mas ela é baixa, só passa de joelho. Seja humilde!" (11,1 mil)
+- "A vontade de vencer em mim não veio de um dia bonito, veio de um dia insuportável." (8,4 mil)
+- "Quando Deus quis fazer Davi um rei, enviou Golias, não uma coroa." (5,7 mil)
+- "Logo, você vai viver o que um dia foi só um sonho seu. Envie pra si mesmo se acredita." (4,7 mil)
+- "Honre o lugar que permite o pão de cada dia chegar na sua mesa." (4 mil)
+- "Esse ano, vamos prosperar tanto que o nosso bolso vai ser usado para ajudar outras famílias. Manda pra quem vai prosperar junto de você, se você acredita." (2,2 mil)
+- "Que privilégio é estar esgotado por uma rotina que um dia pedi pra ter." (2,2 mil)
+- "Não é caro pagar pelo serviço de quem sabe fazer o que você não sabe fazer." (1,9 mil)
+- "Juntos desde o sufoco. Juntos até o topo! Mande pra quem esteve com você no sufoco e vai chegar no topo contigo." (1,7 mil)
+- "Nenhum cliente, processo ou parceria vale mais do que a sua saúde mental."
+- "Eu sonhava em estar onde estou agora. E, às vezes, preciso me lembrar disso."
+- "Ninguém vai acreditar no seu sonho com a mesma coragem que você."
+- "Não deixe ninguém colocar preço naquilo que custou seu tempo, seu esforço, seu suor e suas lágrimas."
+- "Um barco ancorado é seguro, mas não foi pra isso que barcos foram feitos."
+
+## Ruins (nunca escreva assim)
+- "Escritório que depende de você para tudo não é empresa. É emprego com CNPJ." (91 curtidas)
+- "Não existe escritório milionário com dono que faz tudo sozinho." (77 curtidas)
+- Todo o conteúdo dos lotes 2026-11-14 e 2026-11-28.
+
 ## `posts.json`
 Lista na ordem dos dias, começando na data do nome da pasta:
 `[{"padrao": 1-4, "origem": "original"|"<gancho>", "quote": "...", "caption": "<legenda, sem a linha final fixa>"}]`
