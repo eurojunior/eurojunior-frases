@@ -36,6 +36,23 @@ Gerado em 2026-11-25 a partir de lotes/*/posts.json.
 - 05/12 · padrão 2 · Seu primeiro cliente confiou em você quando nem você confiava. Nunca esqueça de onde veio essa coragem.
 - 06/12 · padrão 3 · O cliente não paga pelos 15 minutos da sua resposta. Paga pelos 15 anos que fizeram ela caber em 15 minutos.
 
+## Lote 2026-11-26
+
+- 26/11 · padrão 4 · Pessoas realmente boas querem trabalhar com pessoas ainda melhores do que elas.
+- 27/11 · padrão 2 · É importante perceber se você está vivendo dentro de uma de suas orações respondidas enquanto espera pela próxima.
+- 28/11 · padrão 1 · Se Deus te deu a visão e você tiver ação, Ele se encarregará da provisão.
+- 29/11 · padrão 2 · Se você pedir a Deus para vencer uma maratona, Ele lhe dará sapatos. Não uma medalha.
+- 30/11 · padrão 2 · O sucesso não é conquistado. Ele é alugado. E a parcela é paga todo dia.
+- 01/12 · padrão 1 · Meu maior conselho: acredite primeiro em si mesmo, antes que o mundo acredite.
+- 02/12 · padrão 2 · Pessoas incríveis não têm uma carreira. Elas têm uma missão.
+- 03/12 · padrão 1 · Não existe um dia ruim para quem entende que acordar já é uma vitória!
+- 04/12 · padrão 2 · Quando for cobiçar alguma coisa do próximo, cobice a cruz que ele carrega também.
+- 05/12 · padrão 2 · Integridade é fazer o certo, mesmo que ninguém esteja olhando.
+- 06/12 · padrão 4 · Nunca empreste seu guarda-chuva para quem só lembra de você quando chove.
+- 07/12 · padrão 2 · Plantar é escolha. Colher é inevitável.
+- 08/12 · padrão 2 · Perdoar significa zerar a dívida, mas não necessariamente dar um novo crédito.
+- 09/12 · padrão 1 · Ninguém vence a pessoa paciente.
+
 ## Lote 2026-11-28 (CONTRAEXEMPLO: tom de bronca/aula de gestão, não imitar)
 
 - 28/11 · O que não é medido no seu escritório não é gerido. É torcida.

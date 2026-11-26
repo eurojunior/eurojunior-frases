@@ -75,3 +75,4 @@ Lista na ordem dos dias, começando na data do nome da pasta:
 - 2026-11-22: feedback do Euro (queda de views). Regras, CTA DIAGNÓSTICO e layout reescritos. Agendamentos antigos de 23/11 a 02/12 cancelados. Lote 2026-11-23 (14 posts, 23/11 a 06/12, aprovado pelo Euro) no layout novo.
 - 2026-11-25: rotina diária: lote 2026-12-07 (3 posts, 07/12 a 09/12; padrões 1, 2, 4; criadas do zero), agendados sem aprovação (scheduled_id 32677–32679). Seções "Por que estas regras existem", "Campeãs" e "Ruins" copiadas para este arquivo.
 - 2026-11-25: pasta `projeto/` criada (skill + kit de Projeto) para compartilhar a rotina com a equipe do Grupo Euro.
+- 2026-11-25: Euro decidiu que as frases vêm do Threads @dr.eurojunior (mais curtidas) e a legenda sempre pede compartilhar com outro advogado (substitui a linha DIAGNÓSTICO). Lote 2026-11-26 (14 posts, 26/11 a 09/12) criado a partir do Threads; substitui os agendamentos antigos desse período.
